@@ -1,0 +1,24 @@
+# Privacy protection: NEVER commit raw CCTV videos or frame extracts
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.ts
+*.jpg
+*.jpeg
+!results/figures/*.png
+
+# Exclude YOLO/backup CSVs and heavy checkpoints
+*_yolo_*.csv
+*_backup_*.csv
+*.pt
+*.pth
+*.npz
+
+# Python & Jupyter artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+Thumbs.db

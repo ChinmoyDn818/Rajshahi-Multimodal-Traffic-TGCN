@@ -1,0 +1,9 @@
+timestamp,node_id,flow_direction,total_volume_pcu,bicycle,bike,boat,bus,car,cng,easybike,horsecart,launch,leguna,rickshaw,tractor,truck,van,wheelbarrow
+2026-01-28 11:01:03,C&B,Inflow,72.0,0,20,0,0,2,2,16,0,0,0,6,0,1,2,0
+2026-01-28 11:01:03,C&B,Outflow,92.0,3,22,0,0,2,9,18,0,0,0,5,0,2,1,0
+2026-01-28 11:01:03,FireService,Inflow,131.5,3,32,0,0,2,12,31,0,0,0,5,0,2,1,0
+2026-01-28 11:01:03,FireService,Outflow,73.5,0,22,0,0,2,3,18,0,0,0,3,0,1,2,0
+2026-01-28 11:01:03,Circuit,Inflow,19.5,0,2,0,0,0,2,7,0,0,0,0,0,0,0,0
+2026-01-28 11:01:03,Circuit,Outflow,23.5,0,2,0,0,0,1,7,0,0,0,3,0,0,0,0
+2026-01-28 11:01:03,Lokkhipur,Inflow,4.0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+2026-01-28 11:01:03,Lokkhipur,Outflow,38.0,0,8,0,0,0,4,12,0,0,0,0,0,0,0,0

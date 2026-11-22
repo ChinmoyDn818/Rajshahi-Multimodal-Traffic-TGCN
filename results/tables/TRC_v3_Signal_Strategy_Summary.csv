@@ -1,0 +1,6 @@
+Strategy,Mean_Delay(s/veh),Median_Delay(s/veh),P95_Delay(s/veh),HCM_LOS,v3_Savings(%)
+Fixed-Time 50/50 (C=120s),233.75,259.19,353.64,F,73.63
+Fixed-Time 65/35 (C=120s),110.23,116.44,192.43,F,44.08
+Fixed-Time 75/25 (C=120s),67.6,69.55,143.46,E,8.82
+Proposed Corr-TGCN (v3) Adaptive,61.64,61.34,136.37,E,0.0
+Oracle Perfect-Foresight Bound,57.46,53.31,147.55,E,-7.28
