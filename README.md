@@ -25,7 +25,6 @@ Rajshahi-Multimodal-Traffic-TGCN/
 ├── results/
 │   ├── tables/                            # Exported 3-seed benchmark and HCM 2010 summary CSVs
 │   └── figures/                           # Publication-grade 300-DPI figures (Figs. 1–6)
-├── prepare_and_push.ps1                   # Helper script used to stage anonymized CSVs
 ├── requirements.txt
 ├── LICENSE
 └── README.md
@@ -49,9 +48,9 @@ Rajshahi-Multimodal-Traffic-TGCN/
 
 | Signal Control Strategy | Mean Delay (s/veh) | Median Delay (s/veh) | P95 Delay (s/veh) | HCM LOS | Savings by Proposed |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| Fixed-Time 50/50 (C = 120 s) | 233.75 | 259.19 | 353.64 | F | 74.38% (58/58 windows) |
-| Fixed-Time 65/35 (C = 120 s) | 110.23 | 116.44 | 192.43 | F | 45.66% (58/58 windows) |
-| Fixed-Time 75/25 (C = 120 s) | 67.60 | 69.55 | 143.46 | E | 11.40% (50/58 windows) |
+| Fixed-Time 50/50 (C = 120 s) | 233.75 | 259.19 | 353.64 | F | 74.38% (58/58, p < 0.001) |
+| Fixed-Time 65/35 (C = 120 s) | 110.23 | 116.44 | 192.43 | F | 45.66% (58/58, p < 0.001) |
+| Fixed-Time 75/25 (C = 120 s) | 67.60 | 69.55 | 143.46 | E | 11.40% (50/58, p < 0.001) |
 | **Proposed Corr-Weighted T-GCN** | **59.90** | **57.44** | **136.54** | **E** | — |
 | Oracle Perfect-Foresight Bound | 57.46 | 53.31 | 147.55 | E | (+2.44 s/veh gap) |
 
